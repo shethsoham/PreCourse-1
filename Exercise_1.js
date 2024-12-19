@@ -4,7 +4,7 @@ class Stack {
 ​
     constructor() {
         //Initialize your constructor
-        this.MAX = 1000;
+        this.MAX = 10000; // real value 1000 just checking do it back to 1000 again
         this.top = -1;
         this.a = new Array(this.MAX);
     }
